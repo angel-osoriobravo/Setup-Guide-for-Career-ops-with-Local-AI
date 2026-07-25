@@ -96,15 +96,9 @@ Create `~/career-ops/portals.yml`:
 ```yaml
 location_filter:
   always_allow:
-    - "Maryland"
-    - "MD"
-    - "Virginia"
-    - "VA"
-    - "District of Columbia"
-    - "Washington DC"
-    - "DC"
-    - "Chantilly"
-    - "Ashburn"
+    - "Your State / Region"
+    - "Your Metro Area"
+    - "Your City"
   allow:
     - "Remote"
     - "United States"
@@ -129,34 +123,19 @@ title_filter:
     - "Director"
 
 tracked_companies:
-  - name: CoreWeave
-    careers_url: [https://job-boards.greenhouse.io/coreweave](https://job-boards.greenhouse.io/coreweave)
-    api: [https://boards-api.greenhouse.io/v1/boards/coreweave/jobs](https://boards-api.greenhouse.io/v1/boards/coreweave/jobs)
+  - name: ExampleCompany1
+    careers_url: [https://job-boards.greenhouse.io/examplecompany1](https://job-boards.greenhouse.io/examplecompany1)
+    api: [https://boards-api.greenhouse.io/v1/boards/examplecompany1/jobs](https://boards-api.greenhouse.io/v1/boards/examplecompany1/jobs)
     enabled: true
 
-  - name: Cloudflare
-    careers_url: [https://job-boards.greenhouse.io/cloudflare](https://job-boards.greenhouse.io/cloudflare)
-    api: [https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs](https://boards-api.greenhouse.io/v1/boards/cloudflare/jobs)
+  - name: ExampleCompany2
+    careers_url: [https://job-boards.greenhouse.io/examplecompany2](https://job-boards.greenhouse.io/examplecompany2)
+    api: [https://boards-api.greenhouse.io/v1/boards/examplecompany2/jobs](https://boards-api.greenhouse.io/v1/boards/examplecompany2/jobs)
     enabled: true
 
-  - name: Datadog
-    careers_url: [https://job-boards.greenhouse.io/datadog](https://job-boards.greenhouse.io/datadog)
-    api: [https://boards-api.greenhouse.io/v1/boards/datadog/jobs](https://boards-api.greenhouse.io/v1/boards/datadog/jobs)
-    enabled: true
-
-  - name: Appian
-    careers_url: [https://job-boards.greenhouse.io/appian](https://job-boards.greenhouse.io/appian)
-    api: [https://boards-api.greenhouse.io/v1/boards/appian/jobs](https://boards-api.greenhouse.io/v1/boards/appian/jobs)
-    enabled: true
-
-  - name: CoStar
-    careers_url: [https://job-boards.greenhouse.io/costar](https://job-boards.greenhouse.io/costar)
-    api: [https://boards-api.greenhouse.io/v1/boards/costar/jobs](https://boards-api.greenhouse.io/v1/boards/costar/jobs)
-    enabled: true
-
-  - name: Tailscale
-    careers_url: [https://job-boards.greenhouse.io/tailscale](https://job-boards.greenhouse.io/tailscale)
-    api: [https://boards-api.greenhouse.io/v1/boards/tailscale/jobs](https://boards-api.greenhouse.io/v1/boards/tailscale/jobs)
+  - name: ExampleCompany3
+    careers_url: [https://job-boards.greenhouse.io/examplecompany3](https://job-boards.greenhouse.io/examplecompany3)
+    api: [https://boards-api.greenhouse.io/v1/boards/examplecompany3/jobs](https://boards-api.greenhouse.io/v1/boards/examplecompany3/jobs)
     enabled: true
 ```
 
